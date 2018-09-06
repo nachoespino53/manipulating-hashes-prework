@@ -6,7 +6,7 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
 
-  groceries.values(:dairy, )
+  groceries.values(:dairy, :vegetables, :meat, :grains)
 
   
 
