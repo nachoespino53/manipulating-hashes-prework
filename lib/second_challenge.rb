@@ -6,5 +6,5 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
 
-  groceries.values_at(:dairy, :vegetables, :meat, :grains)
+  groceries.values_at(:dairy, :vegetables, :meat, :grains).flatten
 end
